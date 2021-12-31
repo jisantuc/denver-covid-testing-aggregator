@@ -1,0 +1,30 @@
+{
+  "name": "denver-covid-testing-aggregator",
+  "version": "1.0.0",
+  "description": "Small page to aggregate available COVID tests in the Denver area",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "spago test",
+    "format": "./node_modules/purs-tidy/bin/index.js format-in-place **/*.purs",
+    "serve": "./node_modules/parcel/lib/bin.js dev/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jisantuc/denver-covid-testing-aggregator.git"
+  },
+  "author": "James Santucci",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jisantuc/denver-covid-testing-aggregator/issues"
+  },
+  "homepage": "https://github.com/jisantuc/denver-covid-testing-aggregator#readme",
+  "devDependencies": {
+    "xhr2": "^0.2.1"
+  },
+  "dependencies": {
+    "parcel": "^2.0.1",
+    "purs-tidy": "^0.6.4"
+  }
+}
